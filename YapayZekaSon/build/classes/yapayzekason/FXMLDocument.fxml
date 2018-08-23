@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="321.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yapayzekason.FXMLDocumentController">
+   <children>
+      <Label layoutX="125.0" layoutY="14.0" prefHeight="17.0" prefWidth="52.0" text="Atın Yaşı" />
+      <Label layoutX="225.0" layoutY="14.0" text="Atın Kilosu" />
+      <Label layoutX="315.0" layoutY="14.0" text="Son 10 Yarış Galibiyet Oranı" />
+      <Label layoutX="500.0" layoutY="14.0" text="Jokeyin Kilosu" />
+      <ComboBox fx:id="cmbatyas1" layoutX="105.0" layoutY="43.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbatkilo1" layoutX="209.0" layoutY="43.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbgaloran1" layoutX="330.0" layoutY="43.0" prefHeight="25.0" prefWidth="127.0" />
+      <ComboBox fx:id="cmbjkykilo1" layoutX="500.0" layoutY="43.0" prefHeight="25.0" prefWidth="93.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="47.0" prefHeight="17.0" prefWidth="75.0" text="At 1" />
+      <ComboBox fx:id="cmbatyas2" layoutX="105.0" layoutY="82.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbatkilo2" layoutX="209.0" layoutY="82.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbgaloran2" layoutX="330.0" layoutY="82.0" prefHeight="25.0" prefWidth="127.0" />
+      <ComboBox fx:id="cmbjkykilo2" layoutX="500.0" layoutY="82.0" prefHeight="25.0" prefWidth="93.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="86.0" prefHeight="17.0" prefWidth="75.0" text="At 2" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="125.0" prefHeight="17.0" prefWidth="75.0" text="At 3" />
+      <ComboBox fx:id="cmbatyas3" layoutX="105.0" layoutY="121.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbatkilo3" layoutX="209.0" layoutY="121.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbgaloran3" layoutX="330.0" layoutY="121.0" prefHeight="25.0" prefWidth="127.0" />
+      <ComboBox fx:id="cmbjkykilo3" layoutX="500.0" layoutY="121.0" prefHeight="25.0" prefWidth="93.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="163.0" prefHeight="17.0" prefWidth="75.0" text="At 4" />
+      <ComboBox fx:id="cmbatyas4" layoutX="105.0" layoutY="159.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbatkilo4" layoutX="209.0" layoutY="159.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbgaloran4" layoutX="330.0" layoutY="159.0" prefHeight="25.0" prefWidth="127.0" />
+      <ComboBox fx:id="cmbjkykilo4" layoutX="500.0" layoutY="159.0" prefHeight="25.0" prefWidth="93.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="202.0" prefHeight="17.0" prefWidth="75.0" text="At 5" />
+      <ComboBox fx:id="cmbatyas5" layoutX="105.0" layoutY="198.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbatkilo5" layoutX="209.0" layoutY="198.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbgaloran5" layoutX="330.0" layoutY="198.0" prefHeight="25.0" prefWidth="127.0" />
+      <ComboBox fx:id="cmbjkykilo5" layoutX="500.0" layoutY="198.0" prefHeight="25.0" prefWidth="93.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="241.0" prefHeight="17.0" prefWidth="75.0" text="At 6" />
+      <ComboBox fx:id="cmbatyas6" layoutX="105.0" layoutY="237.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbatkilo6" layoutX="209.0" layoutY="237.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox fx:id="cmbgaloran6" layoutX="330.0" layoutY="237.0" prefHeight="25.0" prefWidth="127.0" />
+      <ComboBox fx:id="cmbjkykilo6" layoutX="500.0" layoutY="237.0" prefHeight="25.0" prefWidth="93.0" />
+      <Button layoutX="146.0" layoutY="281.0" mnemonicParsing="false" onAction="#hesapla" prefHeight="25.0" prefWidth="127.0" text="Hesapla" />
+      <Label fx:id="lbl_sonuc" layoutX="302.0" layoutY="278.0" prefHeight="31.0" prefWidth="236.0" textFill="#18ee09">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
